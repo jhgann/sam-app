@@ -20,7 +20,7 @@ exports.lambdaHandler = async (event, context) => {
         response = {
             'statusCode': 200,
             'body': JSON.stringify({
-                message: 'hello my dude',
+                message: 'Now using canary deployments!',
                 // location: ret.data.trim()
             })
         }
